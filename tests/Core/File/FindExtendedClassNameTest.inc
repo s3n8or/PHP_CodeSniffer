@@ -34,4 +34,4 @@ class testFECNNestedExtendedClass {
 class testFECNClassThatExtendsAndImplements extends testFECNClass implements InterfaceA, InterfaceB {}
 
 /* testClassThatImplementsAndExtends */
-class testFECNClassThatImplementsAndExtends implements InterfaceA, InterfaceB extends testFECNClass {}
+class testFECNClassThatImplementsAndExtends extends testFECNClass implements InterfaceA, InterfaceB {}
